@@ -4,8 +4,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.12.35707.178
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Autumn3DEngineWPF", "Autumn3DEngineWPF\Autumn3DEngineWPF.csproj", "{2364BAF5-98EB-422F-80FD-8F78BDE5FD0B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{849955EE-FBD3-4B0B-A5AD-838B02A47002} = {849955EE-FBD3-4B0B-A5AD-838B02A47002}
+		{EA28D5CB-AAC1-4AFA-8D45-9FDBA578C6DB} = {EA28D5CB-AAC1-4AFA-8D45-9FDBA578C6DB}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Autumn3DEngineCLR", "Autumn3DEngineCLR\Autumn3DEngineCLR.vcxproj", "{EA28D5CB-AAC1-4AFA-8D45-9FDBA578C6DB}"
+	ProjectSection(ProjectDependencies) = postProject
+		{849955EE-FBD3-4B0B-A5AD-838B02A47002} = {849955EE-FBD3-4B0B-A5AD-838B02A47002}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Autumn3DEngine", "Autumn3DEngine\Autumn3DEngine.vcxproj", "{849955EE-FBD3-4B0B-A5AD-838B02A47002}"
 EndProject
