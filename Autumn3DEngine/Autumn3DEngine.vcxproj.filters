@@ -21,6 +21,7 @@
     <None Include="FragmentShader.glsl">
       <Filter>Resource Files</Filter>
     </None>
+    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Include\Camera.h">
@@ -53,10 +54,10 @@
     <ClInclude Include="Include\tiny_gltf.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Include\json.hpp">
+    <ClInclude Include="Include\GLFW\glfw3.h">
       <Filter>Resource Files</Filter>
     </ClInclude>
-    <ClInclude Include="Include\GLFW\glfw3.h">
+    <ClInclude Include="json.hpp">
       <Filter>Resource Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -82,5 +83,19 @@
     <ClCompile Include="Renderer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="Lib\glew32.lib">
+      <Filter>Resource Files</Filter>
+    </Library>
+    <Library Include="Lib\glfw3.lib">
+      <Filter>Resource Files</Filter>
+    </Library>
+    <Library Include="Lib\glm.lib">
+      <Filter>Resource Files</Filter>
+    </Library>
+    <Library Include="Lib\tinygltf.lib">
+      <Filter>Resource Files</Filter>
+    </Library>
   </ItemGroup>
 </Project>

@@ -45,7 +45,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Autumn3DEngineCLR">
-      <HintPath>..\Autumn3DEngineCLR\x64\Release\Autumn3DEngineCLR.dll</HintPath>
+      <HintPath>..\x64\Release\Autumn3DEngineCLR.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
