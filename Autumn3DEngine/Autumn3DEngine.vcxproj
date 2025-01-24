@@ -136,8 +136,9 @@
     </Link>
     <PostBuildEvent />
     <PostBuildEvent>
-      <Command>
-      </Command>
+      <Command>xcopy /Y "x64\Release\Autumn3DEngine.dll" "..\Autumn3DEngineCLR\x64\Release\"
+xcopy /Y "x64\Release\Autumn3DEngine.dll" "..\Autumn3DEngineWPF\bin\x64\Release\"
+</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
