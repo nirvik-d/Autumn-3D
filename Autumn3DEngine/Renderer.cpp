@@ -84,7 +84,7 @@ void Renderer::InitializeOpenGL()
         glEnable(GL_DEPTH_TEST);
 
         // Setup the shaders
-        m_Shader = std::make_shared<Shader>("D:\\local_main\\Autumn3D\\Shaders\\VertexShader.glsl", "D:\\local_main\\Autumn3D\\Shaders\\FragmentShader.glsl");
+        m_Shader = std::make_shared<Shader>("..\\..\\..\\..\\Shaders\\VertexShader.glsl", "..\\..\\..\\..\\Shaders\\FragmentShader.glsl");
     }
     catch (const std::exception& e)
     {
