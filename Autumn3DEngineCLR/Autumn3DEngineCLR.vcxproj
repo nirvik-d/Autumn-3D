@@ -165,7 +165,7 @@
       <AdditionalLibraryDirectories>..\x64\Release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
     <PostBuildEvent>
-      <Command>xcopy /Y "x64\Release\Autumn3DEngineCLR.dll" "..\Autumn3DEngineWPF\bin\x64\Release\"</Command>
+      <Command>xcopy /Y "..\x64\Release\Autumn3DEngineCLR.dll" "..\Autumn3DEngineWPF\bin\x64\Release\"</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">
